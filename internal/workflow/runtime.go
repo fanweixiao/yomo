@@ -10,10 +10,10 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/yomorun/rx"
 	"github.com/yomorun/yomo-codec-golang/pkg/codes"
 	"github.com/yomorun/yomo/internal/conf"
 	"github.com/yomorun/yomo/pkg/quic"
-	"github.com/yomorun/yomo/pkg/rx"
 )
 
 // Run runs the workflow by config (.yaml).

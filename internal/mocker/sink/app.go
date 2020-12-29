@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yomorun/yomo/pkg/rx"
+	"github.com/yomorun/rx"
 )
 
 var store = func(_ context.Context, i interface{}) (interface{}, error) {

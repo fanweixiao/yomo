@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"plugin"
 
+	"github.com/yomorun/rx"
 	"github.com/yomorun/yomo/internal/serverless"
-	"github.com/yomorun/yomo/pkg/rx"
 )
 
 func Dispatcher(hanlder plugin.Symbol, rxstream rx.RxStream) rx.RxStream {

@@ -6,11 +6,11 @@ import (
 	"plugin"
 
 	"github.com/spf13/cobra"
+	"github.com/yomorun/rx"
 	"github.com/yomorun/yomo/internal/dispatcher"
 	"github.com/yomorun/yomo/internal/mocker"
 	"github.com/yomorun/yomo/internal/serverless"
 	"github.com/yomorun/yomo/pkg/quic"
-	"github.com/yomorun/yomo/pkg/rx"
 )
 
 // DevOptions are the options for dev command.

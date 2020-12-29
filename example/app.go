@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/yomorun/yomo/pkg/rx"
+	"github.com/yomorun/rx"
 )
 
 var printer = func(_ context.Context, i interface{}) (interface{}, error) {
